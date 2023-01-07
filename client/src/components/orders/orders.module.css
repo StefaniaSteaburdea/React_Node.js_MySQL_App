@@ -1,0 +1,29 @@
+table{
+    text-align: left;
+    width:70%;
+    padding:15px;
+    margin-top: 2%;
+}
+th{
+    background-color: #fc1b45;
+    color: white;
+    padding:10px;
+}
+
+tr{
+    padding-top:10px;
+    min-height: 10%;
+    border-bottom: 1px solid #ddd;
+}
+@media(min-width:768px){
+    th, td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+      }
+}
+.quantity{
+    color: gray;
+    font-size: small;
+}

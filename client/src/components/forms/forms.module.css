@@ -1,0 +1,34 @@
+.form{
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.group{
+    padding-bottom: 15px;
+    text-align: start;
+}
+.header{
+    padding-bottom:30px;
+    color:#4d0310;
+    text-align: left;
+}
+
+
+.errMsg{
+    color:red;
+    text-align: left;
+}
+
+
+.submit_button,.submit_button:active{
+    margin:15px;
+    padding:10px 30px !important;
+    background-color: #fc1b45 !important;
+    border: none !important;
+    box-shadow: 1px 1px 10px 1px #e8e8e8;
+  }
+  
+  .submit_button:hover,.submit_button:focus{
+    
+    background-color: #e2193d !important;
+  }

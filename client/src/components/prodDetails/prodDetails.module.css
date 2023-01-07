@@ -1,0 +1,27 @@
+.items{
+    text-align:start;
+    padding:25px;
+    margin-top:5px;
+    align-self: flex-start;
+   
+}
+.photo{
+    padding:10px;
+    width: 300px;
+    height: 400px;
+}
+.card{
+    align-items: flex-start;
+    padding: 10px;
+    margin-top:35px;
+}
+.button{
+    margin:15px;
+    padding:10px 30px !important;
+    background-color: #fc1b45 !important;
+    border: none !important;
+    box-shadow: 1px 1px 10px 1px #e8e8e8;
+}
+.button:hover{
+    background-color: #e2193d !important;
+}

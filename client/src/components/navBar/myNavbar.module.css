@@ -1,0 +1,36 @@
+.image{
+    width: 35px;
+    position:relative;
+}
+.image2{
+    width: 30px;
+    position:relative;
+}
+.countitems{
+    position:absolute;
+    color:white;
+    background-color: red;
+    padding-inline: 1px;
+    text-size-adjust: 2px;
+    transform:translate(270%,-25%)
+
+}
+.searchBar{
+    align-self: center;
+    max-width: 350px;
+    display: flex;
+}
+@media (max-width:800px) {
+    .image{
+        width: 25px;
+        position:relative;
+    }
+    .image2{
+        width: 20px;
+        position:relative;
+    }
+    .countitems{
+        
+    transform:translate(200%,-25%)
+    }
+}
